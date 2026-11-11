@@ -1,0 +1,21 @@
+name: mobile
+description: "Smart Heritage Mobile Application for BLE iBeacon Scanning."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.31.6   # Thư viện quét Bluetooth Low Energy (BLE)
+  permission_handler: ^11.3.1  # Thư viện xin quyền Bluetooth & Vị trí
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

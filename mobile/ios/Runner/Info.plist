@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.smartheritage.mobile</string>
+    
+    <!-- Khai báo lý do xin quyền Bluetooth (Bắt buộc trên iOS) -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Ứng dụng cần sử dụng Bluetooth để tự động nhận diện các hiện vật lịch sử xung quanh bạn.</string>
+    
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Ứng dụng cần kết nối Bluetooth để quét tín hiệu iBeacon từ di tích.</string>
+    
+    <!-- Khai báo lý do xin quyền Vị trí (Hỗ trợ quét BLE) -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Ứng dụng cần quyền vị trí để hỗ trợ quá trình quét tín hiệu Bluetooth Low Energy.</string>
+</dict>
+</plist>
